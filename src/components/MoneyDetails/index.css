@@ -1,0 +1,62 @@
+/* Write your CSS here */
+.money-details-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-top: 20px;
+}
+.balance-card {
+  background-color: #ecfccb;
+  border: 1px solid #84cc16;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 30%;
+  border-radius: 15px;
+}
+.money-manager-image {
+  height: 40px;
+  width: 40px;
+  margin-right: 20px;
+}
+.details-card {
+  display: flex;
+  flex-direction: column;
+}
+.detail-text {
+  color: #475569;
+  font-size: 13px;
+}
+.details-amount {
+  color: #475569;
+  font-size: 18px;
+  margin-top: 0;
+}
+.income-card {
+  background-color: #cffafe;
+  border: 1px solid #06b6d4;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 30%;
+  border-radius: 15px;
+}
+.expenses-card {
+  background-color: #ede9fe;
+  border: 1px solid #7c3aed;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-right: 20px;
+  width: 30%;
+  border-radius: 15px;
+}

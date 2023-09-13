@@ -1,0 +1,30 @@
+/* Write your CSS here */
+.transactions-lists-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  border: 1px solid #cbd5e1;
+  margin-left: 0;
+  width: 100%;
+}
+.card {
+  display: flex;
+}
+.list-values {
+  margin-right: 30px;
+  margin-left: 10px;
+  font-weight: 400;
+  max-width: 25%;
+  min-width: 25px;
+}
+.delete-button {
+  border-width: 0;
+  background-color: transparent;
+  margin-left: 10px;
+  cursor: pointer;
+  outline: none;
+}
+.delete-image {
+  height: 25px;
+  width: 25px;
+}
